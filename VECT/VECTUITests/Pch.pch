@@ -1,0 +1,20 @@
+//
+//  Pch.pch
+//  VECT
+//
+//  Created by 方墨 on 2018/5/11.
+//  Copyright © 2018年 方墨. All rights reserved.
+//
+
+#ifndef Pch_pch
+#define Pch_pch
+
+#import <POP/POP.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define GZDeviceWidth ([UIScreen mainScreen].bounds.size.width)
+#define GZDeviceHeight ([UIScreen mainScreen].bounds.size.height)
+
+#endif /* Pch_pch */

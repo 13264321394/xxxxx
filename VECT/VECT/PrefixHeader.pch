@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  VECT
+//
+//  Created by 方墨 on 2018/5/11.
+//  Copyright © 2018年 方墨. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define GZDeviceWidth ([UIScreen mainScreen].bounds.size.width)
+#define GZDeviceHeight ([UIScreen mainScreen].bounds.size.height)
+
+//其实顶端高度也变了 （普通是 statusBarHeight + navigationBarHeight）
+//navigationBarHeight默认44 （iPhoneX 88）
+//statusBarHeight可以通过 [[UIApplication sharedApplication] statusBarFrame].size.height 拿到（除iPhoneX以外都是20，iPhoneX是44）
+#define StatusbarHeight ([UIApplication sharedApplication].statusBarFrame.size.height)
+
+#define AdjustsScrollViewInsetNever(controller,view) if(@available(iOS 11.0, *)) {view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;} else if([controller isKindOfClass:[UIViewController class]]) {controller.automaticallyAdjustsScrollViewInsets = NO;}
+
+//#define portUrl @"http://47.91.22.94:8081"
+//#define portUrl @"http://47.91.22.94:8080"
+//#define portUrl @"http://0.tcp.ngrok.io:16912"
+//#define portUrl @"http://0.tcp.ngrok.io:15436"
+#define portUrl @"http://vectwallet.com"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VECT.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E65C2EDD133247698F28F129627A45529E9B01D0</string>
+				<key>dateExpires</key>
+				<string>2019/5/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>FS8QJJUWM7.com.fangmo.Vect</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>FS8QJJUWM7</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>FS8QJJUWM7.com.fangmo.Vect</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>VECT.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>1b99334b-f620-4fde-8373-2ef7a795fcd4</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.fangmo.Vect</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>FS8QJJUWM7</string>
+				<key>name</key>
+				<string>jin peng tang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
